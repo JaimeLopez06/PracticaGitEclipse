@@ -12,13 +12,13 @@ public class Alumno {
 	        this.dni = dni;
 	    }
 	    
+	      public Alumno() {
+	        this.nombre = "Sin nombre";
+	    }
+	      
 	    @Override
 	    public String toString() {
 	        return "Alumno [nombre=" + nombre + ", apellido=" + apellido + ", dni=" + dni + "]";
 	    }
-
-	    public Alumno() {
-	        this.nombre = "Sin nombre";
-	    }
-
+	     
 }
