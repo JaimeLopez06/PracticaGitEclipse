@@ -8,7 +8,7 @@ public class Main {
 		System.out.println("Alumno 1:");
 		
 		Alumno alumno1 = new Alumno("Juan", "Pérez", "12345678A");
-		System.out.println(alumno1);
+		System.out.println(alumno1) ;
 
 		
 	}
