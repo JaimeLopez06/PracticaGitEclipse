@@ -16,6 +16,9 @@ public class Alumno {
 	    public String toString() {
 	        return "Alumno [nombre=" + nombre + ", apellido=" + apellido + ", dni=" + dni + "]";
 	    }
+	    
+	    public Alumno() {
+	    }
 
 
 }
