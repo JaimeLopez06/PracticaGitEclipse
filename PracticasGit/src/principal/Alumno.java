@@ -17,5 +17,8 @@ public class Alumno {
 	        return "Alumno [nombre=" + nombre + ", apellido=" + apellido + ", dni=" + dni + "]";
 	    }
 
+	    public Alumno() {
+	        this.nombre = "Sin nombre";
+	    }
 
 }
